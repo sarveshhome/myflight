@@ -1,0 +1,224 @@
+span.nav-link.text-white.mr-1 {
+    background-color: #007bff;
+}
+li.nav-item.rounded-circle.social-rounded {
+    border: 1px solid #c1c1c1;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand{
+    font-style: oblique;
+}
+.navbar-brand span{
+    font-size: 40px;
+    color: orange;
+}
+nav.navbar.custom-navbar {
+    padding-top: 0;
+    padding-bottom:0;
+}
+nav.navbar.custom-navbar ul.navbar-nav li span{
+    padding-left:.9rem;
+    padding-right:.9rem;
+}
+.carousel-control-next, .carousel-control-prev{
+    width:6%;
+}
+.flight-booking.justify-content-center {
+    left: 25%;
+    top: 15%;
+    position: absolute;
+    transform: translate(-30%,-15%);
+}
+i.fa.fa-facebook {
+    
+    border-color: black;
+}
+/* carousel */
+.carousel-inner img{
+    width: 100%;
+}
+.carousel .slide{
+    position: relative;
+
+}
+.flight-booking{
+    left: 18%;
+    top: 18%;
+    position: absolute;
+}
+.booking-option {
+    padding: 20px;
+    width: 232%;
+    position: absolute;
+    left: 1%;
+    top: 150%;
+    background:rgb(0,0,0,0.5);
+}
+.form-check-inline {
+    color: white;
+}
+button.btn.btn-danger {
+    float: right;
+    border-radius: 0px;
+    background-color: rgba(255, 165, 0);
+    border: none;
+    padding: 0.5rem 0.9rem;
+}
+button.btn.btn-danger:hover {
+    transition:0.5s;
+    transform:translate(0,5px)
+}
+.custome-carousel .input-group-text{
+    width:40px;
+    border:none;
+}
+.custome-carousel .form-check-inline .form-check-input {
+    vertical-align: text-bottom;
+}
+.btn-group{
+    border-radius: .25rem;
+}
+button.btn.btn-primary {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+.flight-booking h4 {
+    padding-left: 2px;
+}
+/* end */
+/* Recommendation */
+.image-left{
+    position: relative;
+}
+.recommends h5,.deals h5{
+    
+    border-bottom: 2px solid rgba(255, 165, 0);
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 0.1rem;
+    font-size: 18px;
+}
+.price-details a:hover{
+    color:rgba(255, 165, 0);
+}
+.recommends .row .image-left h5,.recommends .row a,.deals .row .image-left h5,.deals .row a {
+    left: 10%;
+}
+.image-center{
+    position: relative;
+}
+.image-right{
+    position: relative;
+}
+/* End */
+/* Deals */
+.deal-left{
+    position: relative;
+}
+.deal-center{
+    position: relative;
+}
+.deal-right{
+    position: relative;
+}
+/* End */
+/* Some Information */
+/* .container-fluid-custom{
+    background-image: url(./assets/image/heading-image.webp);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+} */
+.card-columns{
+    opacity: 0.5;
+}
+/* End */
+/* InformTION */
+.container-fluid-custom-1{
+    background-image: url(./assets/images/snowfall-bf.png);
+}
+.container-fluid-custom-1 .col {
+    padding-top: 20px;
+}
+.container-fluid-custom-1 li{
+    list-style-type: none;
+    
+}
+.container-fluid-custom-1 li a{
+    color: white;
+    text-decoration: none;   
+}
+.price-details {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    width: 92%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    background: rgba(0, 0, 0,0.5);
+    padding-bottom: 8px;
+}
+.container-fluid-custom-1 li a:hover{
+    color:rgba(255, 165, 0);
+}
+.container-fluid-custom-1 ul,.container-custom ul {
+    padding-left: 0;
+    line-height: 1.5;
+}
+/* End */
+/* International site */
+.container-custom li{
+    list-style-type: none;
+}
+.container-custom li a {
+    color: #000;
+    text-decoration: none;
+}
+.container-custom li a:hover{
+    color: rgba(255, 165, 0); 
+}
+h5.text-color{
+    color: #007bff; 
+}
+.sepe-line{
+    height: 2px;
+    border-bottom: 1px dotted #c1c1c1;
+}
+.footer{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+/* End */
+
+.container-fluid.custome-carousel {
+    padding-left: 0;
+    padding-right: 0;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.custom-navbar ul li.nav-item:hover{
+    transition: 0.5s;
+    transform:translate(0,5px)
+
+}
+.custom-navbar ul li.nav-item a span:hover{
+    background-color: rgba(255, 165, 0);
+}
+.custom-navbar ul li.nav-item.rounded-circle a span:hover{
+    background-color: rgba(255, 165, 0);
+    border: 50%;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+} 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
